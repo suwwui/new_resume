@@ -3,9 +3,9 @@ import './App.css';
 
 function Resume() {
   return (
-        <div>
+        <div className ="mx-8 my-6 ">
           
-          <header className ="mx-3 py-3 block bg-white border-t" >
+          <header className ="mx-3 py-3 block bg-white" >
             <span className="font-bold text-lime-700 items-center justify-center flex"> Nur Fadhlina Wjedi</span>
 
           <div className="flex justify-center ">
@@ -41,7 +41,7 @@ function Resume() {
         </header>
           
    
-           <a href className="mx-3 block bg-white py-3 border-t">
+           <a href className="mx-3 block bg-white py-3">
            <div className="flex justify-between">
               <span className="font-bold text-lime-700">EDUCATION</span>
             </div>
@@ -61,7 +61,7 @@ function Resume() {
               </div>
             </a>
 
-          <a href className="mx-3 block bg-white py-3 border-t">
+          <a href className="mx-3 block bg-white py-3">
            <div className="flex justify-between">
               <span className="font-bold text-lime-700">WORKING EXPERIENCE</span>
             </div>
@@ -110,7 +110,7 @@ function Resume() {
               </div>
           </a>
 
-          <a href className="mx-3 block bg-white py-3 border-t">
+          <a href className="mx-3 block bg-white py-3">
            <div className="flex justify-between">
               <span className="font-bold text-lime-700">ACTIVITIES AND INVOLVEMENT</span>
             </div>
@@ -141,7 +141,7 @@ function Resume() {
             </ul>
             </a>
 
-          <a href className="mx-3 block bg-white py-3 border-t">
+          <a href className="mx-3 block bg-white py-3">
            <div className="flex justify-between">
               <span className="font-bold text-lime-700">PROJECT EXPERIENCE</span>
             </div>
@@ -169,7 +169,7 @@ function Resume() {
             </ul>
             </a>
 
-          <a href className="mx-3 block bg-white py-3 border-t">
+          <a href className="mx-3 block bg-white py-3">
            <div className="flex justify-between">
               <span className="font-bold text-lime-700">SKILLS</span>
             </div>
